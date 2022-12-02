@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    
+::selection{
+  background: #F4BBB0;
+  color: #555;
+  }
+::-moz-selection{
+  background: #F4BBB0;
+  color: #555;
+  }
+
+
+body{
+  /*font-family: calibri;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: .5px;
+  color: #555;
+}
+a{
+  text-decoration: none; 
+  border-bottom: 1px dashed #0000EE; 
+  /*color: #000;*/
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;}
+a:hover{
+  /*color: #000;*/
+  text-shadow: 0 0 1px #0000EE;
+}
+a:visited{
+  color: #551A8B;
+  border-bottom: 1px dashed #551A8B;}
+p{
+  margin-top: 0px; 
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .2px;
+}
