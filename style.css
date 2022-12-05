@@ -23,18 +23,20 @@ body{
 }
 a{
   text-decoration: none; 
-  border-bottom: 1px dashed #0000EE; 
+  border-bottom: 1px solid rgb(147, 147, 147);
   /*color: #000;*/
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;}
 a:hover{
-  /*color: #000;*/
-  text-shadow: 0 0 1px #0000EE;
+  color: rgb(147, 147, 147);
+  border-bottom: 1px solid rgb(147, 147, 147);
+  /* text-shadow: 0 0 1px #0000EE; */
 }
 a:visited{
-  color: #551A8B;
-  border-bottom: 1px dashed #551A8B;}
+  /* color: #551A8B; */
+  border-bottom: 1px solid rgb(147, 147, 147);
+}
 p{
   margin-top: 0px; 
   margin-bottom: 10px;
