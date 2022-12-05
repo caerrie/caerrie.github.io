@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    
-::selection{
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+/* ::selection{
   background: #F4BBB0;
   color: #555;
   }
 ::-moz-selection{
   background: #F4BBB0;
   color: #555;
-  }
+  } */
 
 
 body{
   /*font-family: calibri;*/
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Gelasio', serif;
+  font-size: 18px;
   letter-spacing: .5px;
+  line-height: 1.4;
   color: #555;
 }
 a{
